@@ -1,0 +1,24 @@
+{
+  "name": "similaritygrouping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kmeans": "node kmeans.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servin/SimilarityGrouping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/servin/SimilarityGrouping/issues"
+  },
+  "homepage": "https://github.com/servin/SimilarityGrouping#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "ml-kmeans": "^5.0.0"
+  }
+}
